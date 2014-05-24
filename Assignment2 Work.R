@@ -165,10 +165,10 @@ funcListBetter$fiveTimes(5)
 ## and "properties"
 
 # The elements in the list can be seen as class methods.
-> # Let's create a very simple "class" to represent a dog.
-> # A dog won't do much: bark when we tell it to, and 
-> # we can train it to bark a different number of times
-> # by swatting it with a newspaper...
+# Let's create a very simple "class" to represent a dog.
+# A dog won't do much: bark when we tell it to, and 
+# we can train it to bark a different number of times
+# by swatting it with a newspaper...
     
 Dog <- function(name = "Fido", barkType = "Woof!") {
     # Let's set up a "property" that contains a random number of 
